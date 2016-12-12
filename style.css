@@ -1,0 +1,58 @@
+body {
+	background: #84dbd7;
+}
+
+.scene {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: #342a2a;
+	border-top: 50px solid #1d1818;
+	height: 100px;
+}
+
+.scene > div {
+	position: absolute;
+}
+
+.clouds {
+	width: 895px;
+	height: 253px;
+	bottom: 320px;
+	left: 50%;
+	margin-left: -400px;
+	background: url(images/clouds.png) no-repeat center;
+}
+
+.trees {
+	width: 908px;
+	height: 174px;
+	bottom: 100px;
+	left: 50%;
+	margin-left: -450px;
+	background: url(images/trees.png) no-repeat center;
+	z-index: -2;
+}
+
+.grass {
+	width: 964px;
+	height: 37px;
+	bottom: 140px;
+	left: 50%;
+	margin-left: -500px;
+	background: url(images/grass.png) no-repeat center;
+	z-index: -1;
+}
+
+.buildings {
+	width: 763px;
+	height: 305px;
+	bottom: 125px;
+	left: 50%;
+	margin-left: -390px;
+	background: url(images/buildings.png) no-repeat center;
+	z-index: -3
+}
+
+
